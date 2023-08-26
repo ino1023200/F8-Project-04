@@ -462,3 +462,115 @@ line-height: 3rem;
     height: 336px;
     flex-shrink: 0;
 }
+/* <!-- ===========================Features======================== --> */
+.features{
+    margin-top: 77px;
+    height: 570px;
+}
+.features .container{
+    display: flex;
+    margin: auto auto;
+    height: 570px;
+}
+.features__media{
+    display: flex;
+    width: 500px;
+    height: 570px;
+}
+.features__background{
+    position: absolute;
+    border-radius: 18px;
+border: 2px solid #FFF;
+background: linear-gradient(180deg, #C6E2FA 0%, #94C2EA 100%);
+box-shadow: 0px 17px 77px -8px rgba(190, 165, 139, 0.17);
+    width: 458px;
+    height: 500px;
+}
+.features__media--warp{
+    position: relative;
+    margin-top: 16px;
+    width: 458px;
+    height: 500px;
+}
+.feature__media--img{
+    position: absolute;
+    align-self: flex-end;
+}
+.features__content{
+    margin-top: 52px;
+    margin-left: 85px;
+
+    width: 557px;
+    height: 459px;
+}
+.feature__title{
+    color: #000958;
+font-family: Sora;
+font-size: 5.2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 6.2rem; 
+}
+.feature__desc{
+    color: #656689;
+font-family: Poppins;
+margin-top: 24px;
+width: 511px;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: 3rem; 
+}
+.feature__desc-2{
+    color: #656689;
+    font-family: Poppins;
+    margin-top: 36px;
+    margin-bottom: 32px;
+    width: 511px;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem; 
+}
+.feature__list{
+    display: flex;
+    margin-top: 52px;
+}
+.feature__item{
+    display: flex;
+    color: #48496A;
+    min-width: 160px;
+    width: 165px;
+font-family: Sora;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.8rem; 
+}
+.feature__item .ticker{
+    width: 18px;
+    height: 18px;
+}
+.feature__item:nth-child(n+2){
+    margin-left: 30px;
+}
+.features__content--line{
+    margin-top: 11px;
+    opacity: 0.07;
+    background: #FF5B2E;
+    width: 557px;
+    height: 2px;
+}
+.features__content--line--active{
+    background: #FF5B2E;
+    width: 95px;
+height: 2px;
+}
+.viewmore-link{
+    color: #FF5D31;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6rem; 
+}
