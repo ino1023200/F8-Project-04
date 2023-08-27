@@ -46,7 +46,25 @@ z-index: 10;
 .linepage{
     margin-top: 703px;
 }
+.main__btn{
+    display: inline-block;
+    color: #FF5B2E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;  
+    line-height: 44px;
+    width: 276px;
+    height: 56px;
+    border-radius: 31px;
+    border: 1px solid #FF5B2E;
 
+}
+.main__btn:hover{
+    background-color: #FF5B2E;
+    color: #FFF;
+}
 /*================================================= COMMON================================================= */
 /*================================================= HEADER STICKY================================================= */
 
@@ -700,7 +718,11 @@ line-height: 12px; /* 100% */
     height: 56px;
 
 }
-
+.services--btn{
+    position: relative;
+    align-self: flex-end;
+    top: 101px;
+}
 .services__media .btn .main--btn{
     color: #FF5B2E;
 text-align: center;
@@ -807,7 +829,7 @@ line-height: 1.6rem;
 .decor--team.item2, .decor--team.item4{
  
     position: absolute;
-    top: 0;
+    top: 32px;
 }                       
 .position--item{
     color: #656689;
@@ -848,3 +870,158 @@ line-height: 1.6rem;
      font-weight: 600;
 }
 /* ==============================TEAM================================ */
+.prices{
+    margin-top: 130px;
+    height: 933px;
+}
+.prices .container{
+    margin: 0 auto;
+    height: 933px;
+
+}
+.prices--btn{
+    color: #FF5B2E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 56px; */
+    margin-bottom: 24px;
+    width: 246px;
+    height: 44px;
+
+}
+.wrap__item{
+    margin:30px 28px 43px 28px;
+}
+.prices__title{
+    color: #000958;
+    text-align: center;
+    font-family: Sora;
+    margin-top: 86px;
+    margin-bottom: 24px;
+    font-size: 5.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6.2rem; 
+}
+.prices__desc{
+    color: #656689;
+    text-align: center;
+    font-family: Poppins;
+    margin:  0px auto 38px auto;
+    width: 709px;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem; 
+}
+.dou--btn{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 31px;
+    border: 1px solid #FF5B2E;
+    width: 276px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+.dou--btn .month{
+    display: inline-block;
+    color: #FF5B2E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;  
+    line-height: 50px;
+    width: 276px;
+    height: 56px;
+    border-radius: 31px;
+}
+.dou--btn .year{
+    display: inline-block;
+    color: #FF5B2E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;  
+    line-height: 50px;
+    width: 131px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 31px;
+
+}
+.year.active, .month.active{
+    background: #FF5B2E;
+    color: #FFF;
+}
+.dou--btn .year:hover, .dou--btn .month:hover{
+    border: 1px solid #FF5B2E;
+    /* box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42); */
+}
+.group__prices{
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    height: 465px;
+}
+.prices__item{
+    background: #FFF;
+    width: 302px;
+    height: 465px;
+    border-radius: 20px;
+
+}
+.prices__item:nth-child(2){
+    margin: 0px 44px;
+}
+.group__prices .level__item{
+    color: #FF5B2E;
+    font-family: Poppins;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2rem; 
+}
+.group__prices .title__item{
+    color: #3F4065;
+    font-family: Sora;
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.8rem;
+}
+.group__prices .price--item{
+    color: #000958;
+    font-family: Sora;
+    font-size: 3.3rem;
+    margin-bottom: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.4rem; 
+}
+.ckeck_list1 .check__list--item:nth-child(n+5) .check{
+    opacity: 0.4;
+}
+
+.check__list--item{
+    display: flex;
+    color: #656689;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4rem; 
+}
+.check__list--item:nth-child(N+2){
+    margin-top: 18px;
+}
+.check--item{
+    margin-left: 12px;
+}
+/* ==============================PRICES================================ */
